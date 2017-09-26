@@ -1,46 +1,70 @@
-
+body{
+	background-color: gray;
+	font-family: "ABeeZee";
+}
 	p.Header{
 		font-size: 25px;
-		margin-left: 3cm;
-		margin-top: 1cm;
+		margin-top: 60px;
+		margin-bottom: 60px;
+		
 	}
 	p.Welkom{
+		color: darkgray;
 		font-size: 40px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
-		margin-left: 3cm;
+		
 	}
 	p.Sign{
 		font-size: 40px;
 		color:lightgray;
 		margin-top: 0px;
 		padding-bottom: 0px;
-		margin-left: 3cm;
-		
-	}
-	div.form{
-		padding-top: 2cm;
-		margin-left: 3cm;
-		color:lightgray;
-		
-		
-	}
-.form input{
-	border: none;
+		}
+
+#email{
+	margin-top: 10px;
+	margin-bottom: 30px;
 	
 }
 
-
-	p.Login{
-		color:deepskyblue;
-		font-size: 25px;
-		margin-left: 3cm;
-		margin-top: 2cm;
-	}
-	p.Signup{
-		margin-top: 2cm;
-		color:lightgray;
-		margin-left: 3cm;
-	}
+.form input{
+	border: none;
+}
+input::placeholder {
+  color: lightgrey;
+}
+#submit{
+	color:deepskyblue;
+	font-size: 25px;
+	border-color: inherit;
+	margin-top: 75px;
+	background-color: inherit;
+	margin-bottom: 40px;
 	
+		
+	
+}
+
+	p.Signup{
+		color:lightgray;
+		margin-bottom: 40px;
+}
+
+div.cat2{
+	padding: 0 30px;
+	float: right;
+	background-color: white;
+	margin-right: 8cm;
+	margin-top: 1.5cm;
+	margin-bottom:1.5cm;
+}
+div.cat1{
+	padding: 0 30px;
+	float: left;
+	background-color: white;
+	margin-left: 8cm;
+	margin-top: 1.5cm;
+	margin-bottom:1.5cm;
+}
 
