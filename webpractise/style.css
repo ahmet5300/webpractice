@@ -1,0 +1,45 @@
+
+	p.Header{
+		font-size: 25px;
+		margin-left: 3cm;
+		margin-top: 1cm;
+	}
+	p.Welkom{
+		font-size: 40px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		margin-left: 3cm;
+	}
+	p.Sign{
+		font-size: 40px;
+		color:lightgray;
+		margin-top: 0px;
+		padding-bottom: 0px;
+		margin-left: 3cm;
+		
+	}
+	div.form{
+		margin-left: 3cm;
+		color:lightgray;
+		
+		
+	}
+.form input{
+	border: none;
+	
+}
+
+
+	p.Login{
+		color:deepskyblue;
+		font-size: 25px;
+		margin-left: 3cm;
+		margin-top: 2cm;
+	}
+	p.Signup{
+		margin-top: 2cm;
+		color:lightgray;
+		margin-left: 3cm;
+	}
+	
+
