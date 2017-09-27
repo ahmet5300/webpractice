@@ -1,70 +1,103 @@
 body{
-	background-color: gray;
+	background-color: #8E99AD;
 	font-family: "ABeeZee";
+	
 }
-	p.Header{
+.container{
+	width: calc(485px + 95px + 485px);
+    margin: 100px auto;
+
+}
+	p.header{
 		font-size: 25px;
-		margin-top: 60px;
-		margin-bottom: 60px;
+		margin-bottom: 0px;
+	
+		
 		
 	}
-	p.Welkom{
+	p.welkom{
 		color: darkgray;
 		font-size: 40px;
+		margin-top: 88px;
 		margin-bottom: 0px;
-		padding-bottom: 0px;
+		
 		
 	}
-	p.Sign{
+	p.sign{
 		font-size: 40px;
 		color:lightgray;
 		margin-top: 0px;
-		padding-bottom: 0px;
+		margin-bottom: 0px;
+		
 		}
+p.sign span{
+	display: block;
+}
 
 #email{
-	margin-top: 10px;
-	margin-bottom: 30px;
-	
+	margin-top: 100px;
+	margin-bottom: 0px;
+	font-size: 19px;
+}
+#password{
+	display: block;
+	font-size: 19px;
+	margin-top: 47px;
+	margin-bottom: 0px;
 }
 
 .form input{
 	border: none;
+
 }
 input::placeholder {
   color: lightgrey;
 }
 #submit{
 	color:deepskyblue;
-	font-size: 25px;
+	font-size: 27px;
 	border-color: inherit;
 	margin-top: 75px;
 	background-color: inherit;
-	margin-bottom: 40px;
-	
-		
+	margin-top: 105px;
+	margin-bottom: 0px;
 	
 }
 
-	p.Signup{
+.account{
+	color:lightgray;
+	display: inline-block;
+	margin-top: 85px;
+
+		
+}
+.signup{
 		color:lightgray;
 		margin-bottom: 40px;
-}
+		display: inline-block;
+	    margin-top: 85px;
 
-div.cat2{
-	padding: 0 30px;
-	float: right;
-	background-color: white;
-	margin-right: 8cm;
-	margin-top: 1.5cm;
-	margin-bottom:1.5cm;
 }
 div.cat1{
-	padding: 0 30px;
-	float: left;
-	background-color: white;
-	margin-left: 8cm;
-	margin-top: 1.5cm;
-	margin-bottom:1.5cm;
+	 padding-left: 70px;
+    padding-top: 85px;
+    margin-right: 90px;
+    background-color: white;
+    width: calc(485px - 140px);
+    height: 790px;
+    padding-right: 70px;
+    display: inline-block;
 }
+div.cat2{
+	    padding-left: 70px;
+    padding-top: 85px;
+    background-color: white;
+    width: calc(485px - 140px);
+    height: 790px;
+    display: inline-block;
+    padding-right: 70px;
+	
+	
+}
+
 
