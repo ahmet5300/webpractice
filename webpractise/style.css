@@ -5,29 +5,31 @@ body{
 }
 .container{
 	width: calc(485px + 95px + 485px);
-    margin: 100px auto;
+	margin: 0 auto;
 
 }
 	p.header{
-		font-size: 25px;
-		margin-bottom: 0px;
+		font-size: 33px;
+		margin-bottom: 85px;
+		color: #333C46;
+		font-weight: 500;
+	
 	
 		
 		
 	}
 	p.welkom{
-		color: darkgray;
-		font-size: 40px;
-		margin-top: 88px;
+		color: #596268;
+		font-size: 39px;
 		margin-bottom: 0px;
 		
 		
 	}
 	p.sign{
-		font-size: 40px;
-		color:lightgray;
+		font-size: 39px;
+		color:#A3A6AE;
 		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 100px;
 		
 		}
 p.sign span{
@@ -35,15 +37,14 @@ p.sign span{
 }
 
 #email{
-	margin-top: 100px;
-	margin-bottom: 0px;
+	
+	margin-bottom: 45px;
 	font-size: 19px;
 }
 #password{
 	display: block;
 	font-size: 19px;
-	margin-top: 47px;
-	margin-bottom: 0px;
+	margin-bottom: 105px;
 }
 
 .form input{
@@ -51,51 +52,54 @@ p.sign span{
 
 }
 input::placeholder {
-  color: lightgrey;
+  color: #B2B3C4;
 }
 #submit{
-	color:deepskyblue;
+	color:#48ACD6;
 	font-size: 27px;
 	border-color: inherit;
-	margin-top: 75px;
 	background-color: inherit;
-	margin-top: 105px;
-	margin-bottom: 0px;
+	margin-bottom: 85px;
 	
 }
 
 .account{
-	color:lightgray;
+	color:#B2B3C4;
 	display: inline-block;
-	margin-top: 85px;
+	
 
 		
 }
 .signup{
-		color:lightgray;
-		margin-bottom: 40px;
+		color:#B2B3C4;
+;
+		
 		display: inline-block;
-	    margin-top: 85px;
+	    
 
 }
 div.cat1{
-	 padding-left: 70px;
-    padding-top: 85px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 55px;
+    padding-top: 88px;
     margin-right: 90px;
     background-color: white;
     width: calc(485px - 140px);
     height: 790px;
-    padding-right: 70px;
+    
     display: inline-block;
 }
 div.cat2{
-	    padding-left: 70px;
-    padding-top: 85px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 55px;
+    padding-top: 88px;
     background-color: white;
     width: calc(485px - 140px);
     height: 790px;
     display: inline-block;
-    padding-right: 70px;
+    
 	
 	
 }
