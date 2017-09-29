@@ -15,14 +15,21 @@
 		<p class="header">Lines</p>
 		<p class="welkom">Welcome back!</p>
 		<p class="sign">Sign in to continue <span>to Lines.</span> </p>
-
-		<form  name="form" action="practice 1.html" onsubmit="return validateEmail()" >
-			<div class="form">
-				 <input  id="email" name="email" type="text" placeholder="Email"> 
-				 <input  id="password" type="password" name="password" placeholder="Password">
-				 <input type="submit" id="submit" value="Login">
-			</div>
-		</form>
+		
+	
+		
+		<form id="registration-form" class="form-horizontal">
+       			 <div class="form-control-group">
+					<div class="form">
+						 <input  id="email" name="email" type="text" placeholder="Email"> 
+						 <input  id="password" type="password" name="password" placeholder="Password">
+				 		 <input type="submit" id="submit" value="Login">
+					</div>
+				</div>
+			 
+  
+      </form>
+		
 		<p class="account">Dont have an account?</p> 
 		<p class="signup"><strong>Sign up</strong></p>
 	</div>
@@ -34,11 +41,23 @@
 			<div class="form">
 				<input id="email" name="email" type="text" placeholder="Email"> 
 				<input id="password" type="password" name="password" placeholder="Password" > 
-				<input type="submit" id="submit" value="Login">
+				<input type="submit" id="submit" value="Login" onclick="validateEmail(document.form.email)">
 			</div>
 		</form>
 		<p class="signup">Dont have an account? <strong>Sign up</strong></p>
 	</div>
 </div>
+
+<script src="assets/js/jquery-1.7.1.min.js"></script> 
+
+<script src="assets/js/jquery.validate.js"></script> 
+
+<script src="script.js"></script> 
+<script>
+		addEventListener('load', prettyPrint, false);
+		$(document).ready(function(){
+		$('pre').addClass('prettyprint linenums');
+			});
+		</script> 
 </body>
 </html>

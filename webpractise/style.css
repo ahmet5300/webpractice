@@ -3,6 +3,23 @@ body{
 	font-family: "ABeeZee";
 	
 }
+label.valid {
+	width: 24px;
+	height: 12px;
+	background: url(assets/img/valid.png) center center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+label.error {
+	font-weight: bold;
+    color: red;
+/*    padding: 2px 8px;*/
+   	display: block;
+    position: relative;
+    top: -42px;
+}
+
 .container{
 	width: calc(485px + 95px + 485px);
 	margin: 0 auto;
@@ -37,9 +54,9 @@ p.sign span{
 }
 
 #email{
-	
 	margin-bottom: 45px;
 	font-size: 19px;
+	width: 88%;
 }
 #password{
 	display: block;
