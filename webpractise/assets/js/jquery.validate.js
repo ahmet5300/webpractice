@@ -265,8 +265,9 @@ $.extend($.validator, {
 	},
 
 	messages: {
-		required: "This field is required.",
-		email: "Please enter a valid email address."
+		required: " ",
+		email: " "
+		
 		
 	},
 

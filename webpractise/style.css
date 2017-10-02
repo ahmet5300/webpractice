@@ -15,9 +15,10 @@ label.error {
 	font-weight: bold;
     color: red;
 /*    padding: 2px 8px;*/
-   	display: block;
+/*   	display: block;*/
     position: relative;
-    top: -42px;
+    top: -4px;
+	
 }
 
 .container{
@@ -57,15 +58,23 @@ p.sign span{
 	margin-bottom: 45px;
 	font-size: 19px;
 	width: 88%;
+	border: 3px solid white;
+}
+#email1{
+	margin-bottom: 45px;
+	font-size: 19px;
+	width: 88%;
+	border: 3px solid white;
 }
 #password{
 	display: block;
 	font-size: 19px;
 	margin-bottom: 105px;
+	width: 88%;
 }
 
 .form input{
-	border: none;
+		border: none;
 
 }
 input::placeholder {
