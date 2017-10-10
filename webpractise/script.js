@@ -23,9 +23,7 @@ $(document).ready(function(){
 			success: function(element) {
 				$(element).text('OK!').addClass('valid').closest('.control-group').removeClass('error').addClass('success');
 				document.getElementById("email").style.borderBottomColor = "#48AACE";
-				document.getElementById("email").style.borderTopColor = "white";
-				document.getElementById("email").style.borderLeftColor = "white";
-				document.getElementById("email").style.borderRightColor = "white";
+				
 			}
 	  });
 
@@ -56,9 +54,7 @@ $(document).ready(function(){
 					success: function(element) {
 						$(element).text('OK!').addClass('valid').closest('.control-group').removeClass('error').addClass('success');
 						document.getElementById("email1").style.borderBottomColor = "#48AACE";
-						document.getElementById("email1").style.borderTopColor = "white";
-						document.getElementById("email1").style.borderLeftColor = "white";
-						document.getElementById("email1").style.borderRightColor = "white";
+					
 					}
 			  });
 

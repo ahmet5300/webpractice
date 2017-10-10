@@ -17,7 +17,9 @@ label.error {
 /*    padding: 2px 8px;*/
 /*   	display: block;*/
     position: relative;
-    top: 1px;
+    top: -18px;
+	border-bottom: 3px solid #48AACE;
+	padding-bottom: 33px;
 	
 }
 
@@ -58,7 +60,7 @@ p.sign span{
 	margin-bottom: 45px;
 	font-size: 19px;
 	width: 88%;
-	border: 3px solid white;
+	border-bottom: 3px solid white;
 	outline: inherit;
 	padding-bottom: 14px;
 	color: #565E65;
@@ -67,7 +69,7 @@ p.sign span{
 	margin-bottom: 45px;
 	font-size: 19px;
 	width: 88%;
-	border: 3px solid white;
+	border-bottom: 3px solid white;
 	outline: inherit;
 	padding-bottom: 14px;
 	color: #565E65;
