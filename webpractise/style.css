@@ -4,8 +4,8 @@ body{
 	
 }
 label.valid {
-	width: 24px;
-	height: 12px;
+	width: 27px;
+	height: 20px;
 	background: url(assets/img/valid.png) center center no-repeat;
 	display: inline-block;
 	text-indent: -9999px;
