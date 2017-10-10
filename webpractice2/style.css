@@ -1,0 +1,28 @@
+.navbar{
+	border-bottom: 1px solid grey;
+	height: 55px;
+	width: 78%;
+	float: left;
+}
+.navbarright{
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;	
+	height: 55px;
+	width: 22%;
+	float: left;
+}
+ul.navelements{
+	list-style: none;
+	padding: 0;
+	margin-left: 55px;
+	outline: none;
+}
+ul.navelements li{
+	display: inline;
+	padding-right: 15px;
+}
+#searchimage{
+	width:28px;
+	height:29px; 
+	margin-right: 34px;
+}
